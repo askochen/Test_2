@@ -5,6 +5,7 @@ codeunit 50101 MyNewCodeunit
     local procedure CustomerOnAfterInsert(var Rec: Record Customer; Runtrigger: Boolean);
     begin
         Message('test1 message');
+        Message('try to merge');
     end;
 }
 
