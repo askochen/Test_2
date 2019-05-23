@@ -4,7 +4,7 @@ codeunit 50101 MyNewCodeunit
 
     local procedure CustomerOnAfterInsert(var Rec: Record Customer; Runtrigger: Boolean);
     begin
-        Message('test message');
+        Message('test1 message');
     end;
 }
 
